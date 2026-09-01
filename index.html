@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kevin Zambrano — Full Stack Developer</title>
+<meta name="description" content="Portafolio de Kevin Zambrano, estudiante de Ingeniería Informática (UNET) en formación como full stack developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a href="#top" class="nav-brand">KZ<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar tema" title="Cambiar tema">◐</button>
+  </header>
+
+  <main>
+    <section id="top" class="hero">
+      <p class="eyebrow">Ingeniería Informática · UNET</p>
+      <h1>Kevin Zambrano</h1>
+      <p class="hero-role">Full Stack Developer <span class="in-progress">en formación</span></p>
+      <p class="hero-text">
+        Construyendo proyectos con Java + Spring Boot en el backend y Angular en el frontend,
+        mientras aprendo a integrar inteligencia artificial en aplicaciones reales.
+        <!-- Personaliza este párrafo con 2-3 líneas sobre ti -->
+      </p>
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+        <a href="mailto:kevin.zambranoc@unet.edu.ve" class="btn btn-ghost">Escríbeme</a>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section">
+      <h2 class="section-title"><span class="section-num">01</span> Sobre mí</h2>
+      <p class="section-text">
+        <!-- TODO: reemplaza este texto con tu propia historia (3-5 líneas).
+             Ideas: qué te llevó a programar, qué te gustaría construir,
+             en qué punto de la carrera vas. -->
+        Estudiante de Ingeniería Informática en la UNET, en camino a convertirme en
+        desarrollador full stack. Estoy siguiendo una ruta de aprendizaje propia que combina
+        backend en Java/Spring Boot, frontend en Angular, y herramientas de IA aplicadas a
+        proyectos reales — este sitio es el primero de esos proyectos.
+      </p>
+    </section>
+
+    <section id="habilidades" class="section">
+      <h2 class="section-title"><span class="section-num">02</span> Habilidades</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Frontend</h3>
+          <ul class="skill-tags">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Angular</li><li>TypeScript</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Backend</h3>
+          <ul class="skill-tags">
+            <li>Java</li><li>Spring Boot</li><li>APIs REST</li><li>PostgreSQL</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Herramientas</h3>
+          <ul class="skill-tags">
+            <li>Git &amp; GitHub</li><li>Docker</li><li>NetBeans</li><li>VS Code</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>IA aplicada</h3>
+          <ul class="skill-tags">
+            <li>Prompt Engineering</li><li>APIs de IA</li><li>Copilot</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <h2 class="section-title"><span class="section-num">03</span> Proyectos</h2>
+      <p class="section-text">
+        Cada proyecto de esta sección corresponde a un checkpoint de mi ruta de aprendizaje.
+        Los voy agregando conforme los termino.
+      </p>
+      <div class="projects-grid">
+
+        <article class="project-card project-card--placeholder">
+          <div class="project-card-head">
+            <h3>Este portafolio</h3>
+            <span class="project-status project-status--done">Completado</span>
+          </div>
+          <p>Sitio estático construido con HTML, CSS y JavaScript puro. Primer proyecto de la ruta.</p>
+          <ul class="skill-tags"><li>HTML</li><li>CSS</li><li>JS</li></ul>
+          <div class="project-links">
+            <!-- TODO: cuando subas el repo, reemplaza estos href -->
+            <a href="#" class="project-link">Ver demo →</a>
+            <a href="#" class="project-link">Repositorio →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card--placeholder">
+          <div class="project-card-head">
+            <h3>API REST — próximamente</h3>
+            <span class="project-status">Pendiente</span>
+          </div>
+          <p>CRUD con Java, Spring Boot y PostgreSQL. Checkpoint de la Línea 2 de mi ruta.</p>
+          <ul class="skill-tags"><li>Java</li><li>Spring Boot</li><li>PostgreSQL</li></ul>
+          <div class="project-links">
+            <a href="#" class="project-link project-link--disabled">Ver demo →</a>
+            <a href="#" class="project-link project-link--disabled">Repositorio →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card--placeholder">
+          <div class="project-card-head">
+            <h3>App full stack — próximamente</h3>
+            <span class="project-status">Pendiente</span>
+          </div>
+          <p>Angular conectado a mi propia API. El proyecto donde uno el frontend con el backend.</p>
+          <ul class="skill-tags"><li>Angular</li><li>Spring Boot</li></ul>
+          <div class="project-links">
+            <a href="#" class="project-link project-link--disabled">Ver demo →</a>
+            <a href="#" class="project-link project-link--disabled">Repositorio →</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contacto" class="section section--contact">
+      <h2 class="section-title"><span class="section-num">04</span> Contacto</h2>
+      <p class="section-text">¿Quieres hablar de algún proyecto o simplemente conectar? Escríbeme.</p>
+      <div class="contact-links">
+        <a href="mailto:kevin.zambranoc@unet.edu.ve" class="contact-link">kevin.zambranoc@unet.edu.ve</a>
+        <!-- TODO: agrega tus links reales -->
+        <a href="#" class="contact-link">GitHub</a>
+        <a href="#" class="contact-link">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Hecho por Kevin Zambrano · actualizado a medida que avanza la ruta.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
