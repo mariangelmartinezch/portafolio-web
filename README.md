@@ -1,5 +1,5 @@
-# Portafolio de Mariangel Martinez
+# Mariangel Martinez's Portfolio
 
-Aquí estarán mis proyectos enfocados en HTML, CSS y JavaScript. Son mis primeros proyectos en mi camino a convertirme en full stack developer.
+This is where my projects focused on HTML, CSS, and JavaScript will live. These are my first projects on my way to becoming a full stack developer.
 
-Lo voy actualizando a medida que voy sumando cosas nuevas.
+I'll keep updating it as I add new things.
