@@ -1,4 +1,4 @@
-# Portafolio de Kevin Zambrano
+# Portafolio de Mariangel Martinez
 
 Sitio estático (HTML/CSS/JS puro) — el checkpoint de la Línea 1 de la ruta full stack.
 
